@@ -1,0 +1,29 @@
+{
+  "name": "outcome",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/martyzz/outcome.git",
+  "author": "Martin Mach <machmarti@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "demo": "opn http://localhost:8080/demo && http-server -p 8080"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-minify": "^2.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-stream": "^1.24.1",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "opn-cli": "^3.1.0"
+  }
+}
